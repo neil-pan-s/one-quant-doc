@@ -5,7 +5,7 @@
 
 ![demo](./img/demo.jpg)
 
-演示地址: <http://neil-pan.com/twist-quant/> (演示版本为静态行情数据)
+演示地址: <http://neil-pan.com/twist-quant/> (演示版本为sh000016静态行情数据)
 
 ## 笔、段和中枢
 
