@@ -9,6 +9,8 @@
 
 ![流程](./doc/流程.png)
 
+<video src="./doc/playback.mp4" width="100%"></video>
+
 ## 支持标的
 
 - 沪深证券（标的强制带证券所标识 如sh000001、sz000001 ）
