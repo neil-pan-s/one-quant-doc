@@ -13,6 +13,8 @@
   <source id="mp4" src="./doc/playback.mp4" type="video/mp4">
 </video>
 
+[![Alternate Text]()](./doc/playback.mp4 "Link Title")
+
 ## 支持标的
 
 - 沪深证券（标的强制带证券所标识 如sh000001、sz000001 ）
