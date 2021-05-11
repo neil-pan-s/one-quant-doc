@@ -9,7 +9,7 @@
 
 ![流程](./doc/流程.png)
 
-<video src="./doc/playback.mp4" width="100%"></video>
+![示例](./doc/playback.mp4)
 
 ## 支持标的
 
