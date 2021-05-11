@@ -3,9 +3,9 @@
 
 聚焦于多级别K线走势分析 基于1minK线为小级别 实时自动笔段画线、中枢标识 递归分析整体走势 作为买卖分析参考
 
-![demo](./doc/demo.jpg)
-
 演示地址: <http://quant.neil-pan.com/#/twist/> (演示版本为sh000300静态行情数据)
+
+![demo](./doc/demo.jpg)
 
 ![流程](./doc/流程.png)
 
