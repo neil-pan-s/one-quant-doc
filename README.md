@@ -9,7 +9,9 @@
 
 ![流程](./doc/流程.png)
 
-![示例](./doc/playback.mp4)
+<video id="video" controls="" preload="none">
+  <source id="mp4" src="./doc/playback.mp4" type="video/mp4">
+</video>
 
 ## 支持标的
 
