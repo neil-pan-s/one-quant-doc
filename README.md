@@ -5,7 +5,7 @@
 
 地址: <https://quant.neil-pan.com/#/twist/> (默认标的为沪深300指数 搜索框可检索标的)
 
-<img width="100%" src="./doc/demo.png" alt="demo" />
+<p align="center"><img src="./doc/demo.png" alt="demo" /></p>
 
 ![流程](./doc/流程.png)
 
