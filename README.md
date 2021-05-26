@@ -1,11 +1,11 @@
 
 # 缠中说禅 - 缠论技术分析
 
+<p align="center"><img src="./doc/demo.png" alt="demo" /></p>
+
 聚焦于多级别K线走势分析 实时自动笔段画线、中枢标识 递归分析整体走势 作为买卖分析参考
 
 地址: <https://quant.neil-pan.com/#/twist/> (默认标的为沪深300指数 搜索框可检索标的)
-
-<p align="center"><img src="./doc/demo.png" alt="demo" /></p>
 
 ![流程](./doc/流程.png)
 
