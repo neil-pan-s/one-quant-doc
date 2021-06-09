@@ -9,7 +9,7 @@
 
 ![流程](./doc/流程.png)
 
-![示例](./doc/playback.gif)
+https://user-images.githubusercontent.com/2844717/121381522-60124280-c978-11eb-8ff9-1c2dbe6dd964.mp4
 
 ## 支持标的
 
