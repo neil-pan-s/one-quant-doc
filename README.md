@@ -54,8 +54,6 @@ https://user-images.githubusercontent.com/2844717/121382541-4a514d00-c979-11eb-8
 
 <https://github.com/neil-pan-s/twist-quant/issues>
 
-PS: **提交有效Bug或缠论反馈可获取本地实时行情程序包 参与源码开发请联系微信**
-
 ## 量化交流 & 7x24财经快讯推送群
 
 ![微信](./doc/neil0pan0s.png "缠论交流&量化交流") ![壹电报](./doc/finance.jpg "加入7x24财经快讯群 尽览全球实时财经快讯")
