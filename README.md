@@ -9,7 +9,9 @@
 
 ![流程](./doc/流程.png)
 
-![回放和实时买卖点判断](https://user-images.githubusercontent.com/2844717/122881625-f168b800-d36d-11eb-9f83-ad7cefc7af2d.mp4)
+## 回放和实时买卖点判断
+
+https://user-images.githubusercontent.com/2844717/122881625-f168b800-d36d-11eb-9f83-ad7cefc7af2d.mp4
 
 ## 支持标的
 
