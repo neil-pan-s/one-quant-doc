@@ -47,6 +47,31 @@
 ```
 
 ### http - 远程接口请求对象 (支持GET和POST请求)
+
+#### GET请求
+
+```js
+  /**
+   * 
+   * @param {number[]} close - K线收盘价数组
+   * @param {number} n - 均线周期值
+   * @return {number[]} 均线值数组
+   */
+  http.get(close, n)
+```
+
+#### POST请求
+
+```js
+  /**
+   * 
+   * @param {number[]} close - K线收盘价数组
+   * @param {number} n - 均线周期值
+   * @return {number[]} 均线值数组
+   */
+  http.post(close, n)
+```
+
 ### webhook - webhook通知对象 (支持通知到企业微信)
 ### joinquant - 聚宽本地数据对象 (拉取各周期K线)
 ### toast - UI提示信息对象
