@@ -44,18 +44,18 @@ https://user-images.githubusercontent.com/2844717/122881625-f168b800-d36d-11eb-9
 6. **标的搜索** - 点击搜索图标 可搜索全市场标的 点击返回的搜索结果切换标的
 7. **秒级K线** - 交易所不直接提供秒级别K线数据 所以无秒级别历史K线 依据毫秒Tick合并生成实时高精度秒级K线（需在开盘时才能使用）
 
-## 多级别联立
+## 支持多级别联立
 
 多级别联立 判断走势情况 找寻更多的合适买卖点和形态特征
 
 ![cube](./doc/cube-x.jpg)
 
-## 买卖点选股器
+## 支持买卖点选股器
 
 ![image](https://user-images.githubusercontent.com/2844717/125045875-0c5a5c80-e0d0-11eb-89ec-2b126cefb47f.png)
 
 
-## 量化策略脚本
+## 支持量化策略脚本
 
 ![image](https://user-images.githubusercontent.com/2844717/125045834-01073100-e0d0-11eb-8768-468b7b783f21.png)
 
