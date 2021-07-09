@@ -66,7 +66,7 @@
    * 
    * @param {string} url - 目标数据接口地址
    * @param {object} data - 提交的数据信息 (可选)
-   * @param {string} callback - 请求成功时执行的回调函数 (可选)
+   * @param {function} callback - 请求成功时执行的回调函数 (可选)
    * @param {string} dataType - 预期的服务器响应的数据类型 (可选 包括xml、json、script 或 html)
    * @return {Promise} 
    */
