@@ -3,8 +3,6 @@
 
 ![framework](https://user-images.githubusercontent.com/2844717/125124322-7a337200-e12a-11eb-8028-d2dc58dc3ec9.png)
 
-量化开放平台组成
-
 ## 可调用全局对象
 
 ### indicator - 指标分析对象（MA、MACD、BOLL） 
