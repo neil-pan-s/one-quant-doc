@@ -52,10 +52,14 @@ https://user-images.githubusercontent.com/2844717/122881625-f168b800-d36d-11eb-9
 
 ## 支持买卖点选股器
 
+支持全沪深市场、国内期货 批量缠论买卖点分析筛选 
+
 ![image](https://user-images.githubusercontent.com/2844717/125045875-0c5a5c80-e0d0-11eb-89ec-2b126cefb47f.png)
 
 
 ## 支持量化策略脚本
+
+支持用户自行实现量化策略 扩展图表绘画、推送通知等功能
 
 ![image](https://user-images.githubusercontent.com/2844717/125045834-01073100-e0d0-11eb-8768-468b7b783f21.png)
 
