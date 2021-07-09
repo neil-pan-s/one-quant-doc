@@ -1,6 +1,10 @@
 
 # 量化策略脚本开发指南
 
+![logo-black](https://user-images.githubusercontent.com/2844717/125120937-c6c87e80-e125-11eb-8b16-a02201c3099f.png)
+![js](https://user-images.githubusercontent.com/2844717/125120949-ccbe5f80-e125-11eb-8624-0f5d8f29ffe2.jpg)
+
+
 ## 可调用全局对象
 
 ### indicator - 指标分析对象（MA、MACD、BOLL） 
