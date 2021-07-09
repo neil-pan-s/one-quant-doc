@@ -53,11 +53,10 @@
 ```js
   /**
    * 
-   * @param {number[]} close - K线收盘价数组
-   * @param {number} n - 均线周期值
-   * @return {number[]} 均线值数组
+   * @param {string} url - 目标数据接口地址
+   * @return {Promise} 
    */
-  http.get(close, n)
+  http.get(url)
 ```
 
 #### POST请求
@@ -65,11 +64,13 @@
 ```js
   /**
    * 
-   * @param {number[]} close - K线收盘价数组
-   * @param {number} n - 均线周期值
-   * @return {number[]} 均线值数组
+   * @param {string} url - 目标数据接口地址
+   * @param {object} data - 提交的数据信息 (可选)
+   * @param {string} callback - 请求成功时执行的回调函数 (可选)
+   * @param {string} dataType - 预期的服务器响应的数据类型 (可选 包括xml、json、script 或 html)
+   * @return {Promise} 
    */
-  http.post(close, n)
+  http.post(url, data, callback, dataType)
 ```
 
 ### webhook - webhook通知对象 (支持通知到企业微信)
