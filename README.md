@@ -50,6 +50,16 @@ https://user-images.githubusercontent.com/2844717/122881625-f168b800-d36d-11eb-9
 
 ![cube](./doc/cube-x.jpg)
 
+## 买卖点选股器
+
+![image](https://user-images.githubusercontent.com/2844717/125045875-0c5a5c80-e0d0-11eb-89ec-2b126cefb47f.png)
+
+
+## 量化策略脚本
+
+![image](https://user-images.githubusercontent.com/2844717/125045834-01073100-e0d0-11eb-8768-468b7b783f21.png)
+
+
 ## 买卖定式
 
 ![买卖定式](./doc/买卖定式.jpg)
