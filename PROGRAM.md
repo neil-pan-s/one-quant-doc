@@ -10,7 +10,9 @@
 #### MA-移动平均线
 
 ```js
-  indicator.ma(K线收盘价数组, 均线周期值)
+  // closes - K线收盘价数组
+  // n - 均线周期值
+  indicator.ma(closes, n)
 ```
 
 #### MACD-异同移动平均线
