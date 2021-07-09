@@ -4,6 +4,7 @@
 ![logo](https://user-images.githubusercontent.com/2844717/125121008-dfd12f80-e125-11eb-80ab-4c168e652b7b.jpg)
 
 ![js](https://user-images.githubusercontent.com/2844717/125120949-ccbe5f80-e125-11eb-8624-0f5d8f29ffe2.jpg)
+![joinquant](https://user-images.githubusercontent.com/2844717/125121369-68e86680-e126-11eb-8400-e285c30e7f8b.png)
 
 
 ## 可调用全局对象
