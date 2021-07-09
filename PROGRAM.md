@@ -1,7 +1,8 @@
 
 # 量化策略脚本开发指南
 
-![logo-black](https://user-images.githubusercontent.com/2844717/125120937-c6c87e80-e125-11eb-8b16-a02201c3099f.png)
+![logo](https://user-images.githubusercontent.com/2844717/125121008-dfd12f80-e125-11eb-80ab-4c168e652b7b.jpg)
+
 ![js](https://user-images.githubusercontent.com/2844717/125120949-ccbe5f80-e125-11eb-8624-0f5d8f29ffe2.jpg)
 
 
