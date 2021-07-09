@@ -25,17 +25,26 @@
   /**
    * 
    * @param {number[]} close - K线收盘价数组
-   * @param {number} fast - 短周期值
-   * @param {number} slow - 长周期值
-   * @param {number} mid - 移动平均周期值
-   * @return { dif: number[], dea: number[], bar: number[] } MACD 
+   * @param {number} fast - 短周期值 (默认值 12)
+   * @param {number} slow - 长周期值 (默认值 26)
+   * @param {number} mid - 移动平均周期值 (默认值 9)
+   * @return { dif: number[], dea: number[], bar: number[] } MACD
    */
   indicator.macd(close, fast = 12, slow = 26, mid = 9)
 ```
 
 #### BOLL-布林带
 
-
+```js
+  /**
+   * 
+   * @param {number[]} close - K线收盘价数组
+   * @param {number} size - 均线周期值 (默认值 20)
+   * @param {number} times - 标准差倍数 (默认值 2)
+   * @return { upper: number[], mid: number[], lower: number[] } BOLL
+   */
+  indicator.boll(close, size = 20, times = 2)
+```
 
 ### http - 远程接口请求对象 (支持GET和POST请求)
 ### webhook - webhook通知对象 (支持通知到企业微信)
