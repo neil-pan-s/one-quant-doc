@@ -6,6 +6,19 @@
 ## 可调用全局对象
 
 ### indicator - 指标分析对象（MA、MACD、BOLL） 
+
+#### MA-移动平均线
+
+```js
+  indicator.ma(K线收盘价数组, 均线周期值)
+```
+
+#### MACD-异同移动平均线
+
+#### BOLL-布林带
+
+
+
 ### http - 远程接口请求对象 (支持GET和POST请求)
 ### webhook - webhook通知对象 (支持通知到企业微信)
 ### joinquant - 聚宽本地数据对象 (拉取各周期K线)
