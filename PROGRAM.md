@@ -10,8 +10,12 @@
 #### MA-移动平均线
 
 ```js
-  // closes - K线收盘价数组
-  // n - 均线周期值
+  /**
+   *
+   * @param {number[]} closes - K线收盘价数组
+   * @param {number} n - 均线周期值
+   * @return {number[]} 均线值数组
+   */
   indicator.ma(closes, n)
 ```
 
