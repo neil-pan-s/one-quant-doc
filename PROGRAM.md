@@ -11,15 +11,27 @@
 
 ```js
   /**
-   *
-   * @param {number[]} closes - K线收盘价数组
+   * 
+   * @param {number[]} close - K线收盘价数组
    * @param {number} n - 均线周期值
    * @return {number[]} 均线值数组
    */
-  indicator.ma(closes, n)
+  indicator.ma(close, n)
 ```
 
 #### MACD-异同移动平均线
+
+```js
+  /**
+   * 
+   * @param {number[]} close - K线收盘价数组
+   * @param {number} fast - 短周期值
+   * @param {number} slow - 长周期值
+   * @param {number} mid - 移动平均周期值
+   * @return { dif: number[], dea: number[], bar: number[] } MACD 
+   */
+  indicator.macd(close, fast = 12, slow = 26, mid = 9)
+```
 
 #### BOLL-布林带
 
