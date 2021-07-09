@@ -14,7 +14,7 @@
    * 
    * @param {number[]} close - K线收盘价数组
    * @param {number} n - 均线周期值
-   * @return {number[]} 均线值数组
+   * @return {number[]} 均线数据数组
    */
   indicator.ma(close, n)
 ```
@@ -28,7 +28,7 @@
    * @param {number} fast - 短周期值 (默认值 12)
    * @param {number} slow - 长周期值 (默认值 26)
    * @param {number} mid - 移动平均周期值 (默认值 9)
-   * @return { dif: number[], dea: number[], bar: number[] } MACD
+   * @return { dif: number[], dea: number[], bar: number[] } MACD数据对象
    */
   indicator.macd(close, fast = 12, slow = 26, mid = 9)
 ```
@@ -41,7 +41,7 @@
    * @param {number[]} close - K线收盘价数组
    * @param {number} size - 均线周期值 (默认值 20)
    * @param {number} times - 标准差倍数 (默认值 2)
-   * @return { upper: number[], mid: number[], lower: number[] } BOLL
+   * @return { upper: number[], mid: number[], lower: number[] } BOLL数据对象
    */
   indicator.boll(close, size = 20, times = 2)
 ```
