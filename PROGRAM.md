@@ -143,6 +143,43 @@
 使用聚宽接口请务必确保已安装壹缠插件 详见 (https://one-quant.com/plugin/壹缠浏览器插件安装说明.pdf)
 
 ### toast - UI提示信息对象
+
+![image](https://user-images.githubusercontent.com/2844717/125153007-76800980-e183-11eb-8773-788c05a889ad.png)
+
+
+#### 消息提示
+
+```js
+  /**
+   * 
+   * @param {string} text - 消息提示信息
+   * @return {void} 
+   */
+  toast.info(text) 
+```
+
+#### 警告提示
+
+```js
+  /**
+   * 
+   * @param {string} text - 消息提示信息
+   * @return {void} 
+   */
+  toast.warn(text) 
+```
+
+#### 错误提示
+
+```js
+  /**
+   * 
+   * @param {string} text - 消息提示信息
+   * @return {void} 
+   */
+  toast.error(text) 
+```
+
 ### log - DevTools调试信息对象
 
 ## 传参数据对象
