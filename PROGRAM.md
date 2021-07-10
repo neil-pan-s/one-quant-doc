@@ -42,9 +42,187 @@
   }
 ```
 
-#### 壹缠数据对象
+#### Twist壹缠数据对象
 
+```js
+  {
+      typing: [Typing],   // 分型数据
 
+      stroke: [Stroke],   // 笔数据
+      segment: [Segment], // 段数据
+      trend: [Trend],     // 走势数据
+  
+      strokebox: [StrokeBox],   // 笔中枢数据
+      segmentbox: [SegmentBox], // 段中枢数据
+  }
+```
+
+##### Typing - 分型数据结构
+
+```js
+  class Typing {
+
+    // 类型 'top' | 'bottom'
+    type 
+
+    // 分型顶点
+    point = [ 'day', 'value' ]
+
+    // 分型顶点K线
+    kline 
+
+    // 分型顶点K线索引
+    kindex
+
+    // 提示信息 (背驰|小转大|MACD|买卖点| ...)
+    tip
+
+    // 索引值
+    index
+
+    // 时间戳
+    timestamp
+  }
+```
+
+##### Stroke - 笔数据结构
+
+```js
+  class Stroke {
+
+    // 方向 'up' | 'down'
+    type 
+
+    // 起始分型
+    styping
+
+    // 结束分型
+    etyping
+
+    // 提示信息 (背驰|小转大|买卖点| ...)
+    tip
+
+    // MACD值
+    macd
+
+    // 索引值
+    index
+
+    // 时间戳
+    timestamp
+  }
+```
+
+##### Segment - 段数据结构
+
+```js
+export class Segment {
+
+  // 方向 'up' | 'down'
+  type 
+
+  // 起始笔
+  sstroke
+
+  // 结束笔
+  estroke
+
+  // 笔中枢集合
+  box = []
+
+  // 提示信息 (背驰|小转大|MACD|买卖点| ...)
+  tip
+
+  // MACD值
+  macd
+  
+  // 索引值
+  index
+
+  // 时间戳
+  timestamp
+}
+```
+
+##### Trend - 走势数据结构
+
+```js
+
+export class Trend {
+
+  // 方向 'up' | 'down'
+  type 
+
+  // 起始段
+  sstroke
+
+  // 结束段
+  estroke
+
+  // 段中枢集合
+  box = []
+  
+  // 提示信息 (背驰|小转大|MACD|买卖点| ...)
+  tip
+
+  // MACD值
+  macd
+  
+  // 索引值
+  index
+
+  // 时间戳
+  timestamp
+}
+
+```
+
+##### StrokeBox/SegmentBox - 中枢数据结构
+
+```js
+  class Box {
+
+    // 方向 'up' | 'down'
+    type 
+
+    // 中枢区间
+    range = {
+      // 中枢上沿
+      top: 0,
+      // 中枢下沿
+      bottom: 0,
+
+      // 中枢最高点 (在中枢外)
+      high: 0,
+      // 中枢最低点 (在中枢外)
+      low: 0,
+    }
+
+    // 起始段
+    ssegment
+
+    // 结束段
+    esegment 
+
+    // 中枢段集合
+    segments = [] 
+
+    // 是否为扩张中枢
+    isExpand
+
+    // 是否为更大级别中枢（中枢段数量大于9）
+    isLevelUp
+
+    // 提示信息 (扩张|九段| ...)
+    tip
+
+    // 索引值
+    index
+
+    // 时间戳
+    timestamp
+  }
+```
 
 #### ECharts绘图配置数组
 
