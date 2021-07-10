@@ -96,7 +96,7 @@
 
 ### joinquant - 聚宽本地数据对象 (拉取各周期K线)
 
-聚宽目前支持沪深市场和国内期货市场 证券代码格式说明如下:
+聚宽目前支持沪深市场和国内期货市场(期货主力合约以9999标识和具体月份合约区分) 证券代码格式说明如下:
 
 |交易市场|代码后缀|示例代码|证券简称|
 | :----: | :----: | :----: | :----: |
@@ -107,8 +107,6 @@
 |上期所|.XSGE|AU9999.XSGE|黄金主力合约|
 |郑商所|.XZCE|CY8888.XZCE|棉纱期货指数|
 |上海国际能源期货交易所|.XINE|SC9999.XINE|原油主力合约|
-
-期货主力合约以9999标识和具体月份合约区分
 
 #### 设置聚宽账户信息
 
@@ -130,9 +128,16 @@
    * @param {string} symbol - 聚宽标的代码 (格式说明: 上交所 xxxxxx.XSHG 深交所 xxxxxx.XSHE)
    * @param {string} level - K线周期 (min1、min5、min15、min30、min60、min120、min240、day、week、month)
    * @param {number} length - 拉取的K线数量 (默认1024 最大值5000)
-   * @return {Kline[]} K线对象数组 (Kline对象格式 { day: 'YYYY-MM-DD HH:mm:ss' | 'YYYY-MM-DD', open: xxxx.xx, high: xxxx.xx, low: xxxx.xx, close: xxxx.xx, volume: xxxxxxx })
+   * @return {Promise<Kline[]>} K线对象数组 (Kline对象格式 { day: 'YYYY-MM-DD HH:mm:ss' | 'YYYY-MM-DD', open: xxxx.xx, high: xxxx.xx, low: xxxx.xx, close: xxxx.xx, volume: xxxxxxx })
    */
   joinquant.captureKline(symbol, level, length = 1024)
+```
+
+示例 (获取近30交易日上证指数日K线数据)
+
+```js
+  joinquant.setAccount('聚宽账户', '聚宽密码')
+  const klines = await joinquant.captureKline('000001.XSHG', 'day', 30)
 ```
 
 使用聚宽接口请务必确保已安装壹缠插件 详见 (https://one-quant.com/plugin/壹缠浏览器插件安装说明.pdf)
