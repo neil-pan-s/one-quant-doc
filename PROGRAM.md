@@ -50,7 +50,7 @@
 
 用户可以根据绘图需要 扩展此配置数组 详见 https://echarts.apache.org/zh/option.html#series
 
-示例
+示例 (图表增加10日均线)
 
 ```js
    echartsCustomSeries.push({
