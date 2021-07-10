@@ -7,6 +7,36 @@
 
 以下策略脚本生命周期接口 用户可以根据功能需要 自行灵活实现 不需要的接口 可以不声明和实现
 
+### 策略脚本生命周期函数 - 脚本加载(脚本加载到图表后触发)
+
+```js
+  async function create() {
+    // ...
+  }
+```
+
+### 策略脚本生命周期函数 - 脚本更新(当前图表标的或周期更换时触发)
+
+```js
+  /**
+   * 
+   * @param {string} symbol - 当前图表浏览标的代码
+   * @param {string} level - K线周期 (sec5、sec15、sec30、min1、min5、min15、min30、min60、min120、min240、day、week、month)
+   * @return {void} 
+   */
+  async function update(symbol, level) {
+    // ...
+  }
+```
+
+### 策略脚本生命周期函数 - 脚本卸载(脚本停用从图表卸载后触发)
+
+```js
+  async function destroy() {
+    // ...
+  }
+```
+
 ### 策略脚本回调接口 - TICK更新
 
 毫秒级别tick推送时更新 (注意此接口为高频回调接口 不要在此接口处理耗时或打印操作)
@@ -249,36 +279,6 @@ export class Trend {
 ```
 
 更多配置示例 可参见 壹缠策略脚本编辑器 -> 示例脚本
-
-### 策略脚本生命周期函数 - 脚本加载(脚本加载到图表后触发)
-
-```js
-  async function create() {
-    // ...
-  }
-```
-
-### 策略脚本生命周期函数 - 脚本更新(当前图表标的或周期更换时触发)
-
-```js
-  /**
-   * 
-   * @param {string} symbol - 当前图表浏览标的代码
-   * @param {string} level - K线周期 (sec5、sec15、sec30、min1、min5、min15、min30、min60、min120、min240、day、week、month)
-   * @return {void} 
-   */
-  async function update(symbol, level) {
-    // ...
-  }
-```
-
-### 策略脚本生命周期函数 - 脚本卸载(脚本停用从图表卸载后触发)
-
-```js
-  async function destroy() {
-    // ...
-  }
-```
 
 ## 可调用全局对象
 
