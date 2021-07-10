@@ -59,7 +59,7 @@ https://user-images.githubusercontent.com/2844717/122881625-f168b800-d36d-11eb-9
 
 ## 支持量化策略脚本
 
-支持用户自行实现量化策略 扩展图表标注、买卖信号、推送通知等功能
+支持用户自行实现量化策略 扩展图表标注、买卖信号、推送通知等功能 (策略脚本编程指南 详见: https://github.com/neil-pan-s/twist-quant/blob/main/PROGRAM.md)
 
 ![image](https://user-images.githubusercontent.com/2844717/125045834-01073100-e0d0-11eb-8768-468b7b783f21.png)
 
