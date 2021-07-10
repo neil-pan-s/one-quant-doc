@@ -1,5 +1,5 @@
 
-# 量化策略脚本指南
+# 量化策略脚本编程指南
 
 ![framework](https://user-images.githubusercontent.com/2844717/125124322-7a337200-e12a-11eb-8028-d2dc58dc3ec9.png)
 
@@ -71,6 +71,13 @@
    * @return {Promise} 
    */
   http.post(url, data, callback, dataType)
+```
+
+示例
+
+```js
+  const rsp1 = await http.get('https://example.com/')
+  const rsp2 = await http.post('https://example.com/', { test: 'test' })
 ```
 
 ### webhook - webhook通知对象 (支持通知到企业微信)
