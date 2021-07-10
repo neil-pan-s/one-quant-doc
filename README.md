@@ -19,7 +19,6 @@ https://user-images.githubusercontent.com/2844717/122881625-f168b800-d36d-11eb-9
 - 沪深可转债 (免费)
 - 港股&美股 (VIP)
 - 国内期货 (VIP)
-- 国际期货 (VIP)
 - 加密货币 (VIP)
 
 ## VIP & SVIP服务
