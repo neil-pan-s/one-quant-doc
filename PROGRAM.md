@@ -225,7 +225,7 @@
   /**
    * 
    * @param {string} symbol - 聚宽标的代码 (格式说明: 上交所 xxxxxx.XSHG 深交所 xxxxxx.XSHE)
-   * @param {string} level - K线周期 (min1、min5、min15、min30、min60、min120、min240、day、week、month)
+   * @param {string} level - K线周期 (min1、min5、min15、min30、min60、min120、day、week、month)
    * @param {number} length - 拉取的K线数量 (默认1024 最大值5000)
    * @return {Promise<Kline[]>} K线对象数组 (Kline对象格式 { day: 'YYYY-MM-DD HH:mm:ss' | 'YYYY-MM-DD', open: xxxx.xx, high: xxxx.xx, low: xxxx.xx, close: xxxx.xx, volume: xxxxxxx })
    */
@@ -237,6 +237,29 @@
 ```js
   joinquant.setAccount('聚宽账户', '聚宽密码')
   const klines = await joinquant.captureKline('000001.XSHG', 'day', 30)
+```
+
+#### 拉取标的特定时间段历史K线数据
+
+当level是week或month时，第一条数据是开始时间date所在的周或月的行情。当level为分钟时，第一条数据是开始时间date所在的一个level切片的行情。 最大获取1000个交易日数据
+
+```js
+  /**
+   * 
+   * @param {string} symbol - 聚宽标的代码 (格式说明: 上交所 xxxxxx.XSHG 深交所 xxxxxx.XSHE)
+   * @param {string} level - K线周期 (min1、min5、min15、min30、min60、min120、day、week、month)
+   * @param {string} sdate - 起始时间 YYYY-MM-DD HH:mm:ss
+   * @param {string} edate - 截止时间 YYYY-MM-DD HH:mm:ss 
+   * @return {Promise<Kline[]>} K线对象数组 (Kline对象格式 { day: 'YYYY-MM-DD HH:mm:ss' | 'YYYY-MM-DD', open: xxxx.xx, high: xxxx.xx, low: xxxx.xx, close: xxxx.xx, volume: xxxxxxx })
+   */
+  joinquant.captureHistroyKline(symbol, level, sdate, edate)
+```
+
+示例 (获取 2020-07-01 ~ 2020-07-30 交易日上证指数日K线数据)
+
+```js
+  joinquant.setAccount('聚宽账户', '聚宽密码')
+  const klines = await joinquant.captureHistroyKline('000001.XSHG', 'day', '2020-07-01 00:00:00', '2020-07-30 00:00:00')
 ```
 
 使用聚宽接口请务必确保已安装壹缠插件 详见 (https://one-quant.com/plugin/壹缠浏览器插件安装说明.pdf)
