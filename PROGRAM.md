@@ -3,6 +3,80 @@
 
 ![framework](https://user-images.githubusercontent.com/2844717/125124322-7a337200-e12a-11eb-8028-d2dc58dc3ec9.png)
 
+## 策略脚本生命周期接口
+
+以下生命周期 脚本会在特定情况 回调相关接口 用户可以根据功能需要 自行灵活实现 不需要的接口 可以不声明和实现
+
+### 策略脚本回调接口 - TICK更新
+
+毫秒级别tick推送时更新 (注意此接口为高频回调接口 不要在此接口处理耗时或打印操作)
+
+```js
+  /**
+   * 
+   * @param {string} symbol - 当前图表浏览标的代码
+   * @param {object} ohlcv - TICK数据对象 (格式 { open: xxxx.xx, high: xxxx.xx, low: xxxx.xx, close: xxxx.xx, volume: xxxxxxx })
+   * @return {void} 
+   */
+  async function tick(symbol, ohlcv) {
+    // ... 
+  }
+```
+
+### 策略脚本回调接口 - K线更新
+
+当前标的周期K线更新时触发 (单个K线周期内3~10s更新一次)
+
+```js
+  /**
+   * 
+   * @param {string} symbol - 当前图表浏览标的代码
+   * @param {string} level - K线周期 (sec5、sec15、sec30、min1、min5、min15、min30、min60、min120、min240、day、week、month)
+   * @param {Kline[]} klines - K线数据对象 (格式 { day: 'YYYY-MM-DD HH:mm:ss' | 'YYYY-MM-DD', open: xxxx.xx, high: xxxx.xx, low: xxxx.xx, close: xxxx.xx, volume: xxxxxxx })
+   * @param {object} twist - 壹缠数据对象 (笔段中枢走势数据 详见后表)
+   * @param {array} echartsCustomSeries - 图表绘图配置数组 (参见 https://echarts.apache.org/zh/option.html#series)
+   * @return {void} 
+   */
+  async function kline(symbol, level, klines, twist, echartsCustomSeries) {
+    // ... 
+  }
+```
+
+#### 壹缠数据对象
+
+#### ECharts绘图配置数组
+
+
+### 策略脚本生命周期函数 - 脚本加载(脚本加载到图表后触发)
+
+```js
+  async function create() {
+    // ...
+  }
+```
+
+### 策略脚本生命周期函数 - 脚本更新(当前图表标的或周期更换时触发)
+
+```js
+  /**
+   * 
+   * @param {string} symbol - 当前图表浏览标的代码
+   * @param {string} level - K线周期 (sec5、sec15、sec30、min1、min5、min15、min30、min60、min120、min240、day、week、month)
+   * @return {void} 
+   */
+  async function update(symbol, level) {
+    // ...
+  }
+```
+
+### 策略脚本生命周期函数 - 脚本卸载(脚本停用从图表卸载后触发)
+
+```js
+  async function destroy() {
+    // ...
+  }
+```
+
 ## 可调用全局对象
 
 ### indicator - 指标分析对象（MA、MACD、BOLL） 
@@ -221,10 +295,3 @@ UI提示信息默认展示在图表正上方位置, 多个提示同时出现会�
 ```
 
 注意: 频繁打印日志信息 可能会影响浏览器性能 脚本开发完成后 请屏蔽不需要的日志打印信息
-
-## 传参数据对象
-
-### ohlcv - 当前标的TICK数据
-### klines - 当前标的周期K线数据
-### twist - 壹缠数据对象 (笔段中枢走势数据)
-### echartsCustomSeries - 图表绘图配置数组 (参见 https://echarts.apache.org/zh/option.html#series)
