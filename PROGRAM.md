@@ -5,7 +5,7 @@
 
 ## 策略脚本生命周期接口
 
-以下生命周期 脚本会在特定情况 回调相关接口 用户可以根据功能需要 自行灵活实现 不需要的接口 可以不声明和实现
+以下策略脚本生命周期接口 用户可以根据功能需要 自行灵活实现 不需要的接口 可以不声明和实现
 
 ### 策略脚本回调接口 - TICK更新
 
@@ -34,7 +34,7 @@
    * @param {string} level - K线周期 (sec5、sec15、sec30、min1、min5、min15、min30、min60、min120、min240、day、week、month)
    * @param {Kline[]} klines - K线数据对象 (格式 { day: 'YYYY-MM-DD HH:mm:ss' | 'YYYY-MM-DD', open: xxxx.xx, high: xxxx.xx, low: xxxx.xx, close: xxxx.xx, volume: xxxxxxx })
    * @param {object} twist - 壹缠数据对象 (笔段中枢走势数据 详见后表)
-   * @param {array} echartsCustomSeries - 图表绘图配置数组 (参见 https://echarts.apache.org/zh/option.html#series)
+   * @param {array} echartsCustomSeries - 图表绘图配置数组 (详见 https://echarts.apache.org/zh/option.html#series)
    * @return {void} 
    */
   async function kline(symbol, level, klines, twist, echartsCustomSeries) {
@@ -44,8 +44,33 @@
 
 #### 壹缠数据对象
 
+
+
 #### ECharts绘图配置数组
 
+用户可以根据绘图需要 扩展此配置数组 详见 https://echarts.apache.org/zh/option.html#series
+
+示例
+
+```js
+   echartsCustomSeries.push({
+      name: "MA10",
+      type: "line",
+      symbol: "none",
+      data: [均线数据],
+      lineStyle: {
+          color: '#fc97af',
+          width: 1,
+      },
+      emphasis: {
+          lineStyle: {
+            width: 1,
+          }
+      },
+   })
+```
+
+更多配置示例 可参见 壹缠策略脚本编辑器 -> 示例脚本
 
 ### 策略脚本生命周期函数 - 脚本加载(脚本加载到图表后触发)
 
