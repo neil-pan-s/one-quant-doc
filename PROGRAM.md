@@ -146,6 +146,7 @@
 
 ![image](https://user-images.githubusercontent.com/2844717/125153007-76800980-e183-11eb-8773-788c05a889ad.png)
 
+UI提示信息默认展示在图表正上方位置, 多个提示同时出现会自上而下依序展示。
 
 #### 消息提示
 
@@ -181,6 +182,45 @@
 ```
 
 ### log - DevTools调试信息对象
+
+![image](https://user-images.githubusercontent.com/2844717/125153212-c4e1d800-e184-11eb-9340-d73ec9062eaf.png)
+
+浏览器DevTools(F12快捷键 -> Console) 调试信息接口，用于在脚本开发过程中打印执行信息、确定错误异常代码位置. 
+
+#### 普通日志信息
+
+```js
+  /**
+   * 
+   * @param {object|string} msg - 日志打印信息
+   * @return {void} 
+   */
+  log.info(msg) 
+```
+
+#### 警告日志信息
+
+```js
+  /**
+   * 
+   * @param {object|string} msg - 日志打印信息
+   * @return {void} 
+   */
+  log.warn(msg) 
+```
+
+#### 错误日志信息
+
+```js
+  /**
+   * 
+   * @param {object|string} msg - 日志打印信息
+   * @return {void} 
+   */
+  log.errr(msg) 
+```
+
+注意: 频繁打印日志信息 可能会影响浏览器性能 脚本开发完成后 请屏蔽不需要的日志打印信息
 
 ## 传参数据对象
 
