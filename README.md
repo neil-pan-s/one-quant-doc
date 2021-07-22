@@ -52,6 +52,7 @@ https://user-images.githubusercontent.com/2844717/122881625-f168b800-d36d-11eb-9
 ## 支持买卖点选股器
 
 支持全沪深市场、国内期货 批量缠论买卖点分析筛选
+
 支持语义化智能选股，如 板块、技术面、基本面、排序等条件，如 沪深300成分股,年线以上,业绩预增,主力资金流入排序,非st,非新股
 
 ![image](https://user-images.githubusercontent.com/2844717/125045875-0c5a5c80-e0d0-11eb-89ec-2b126cefb47f.png)
