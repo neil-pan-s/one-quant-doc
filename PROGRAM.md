@@ -82,14 +82,56 @@
 
 ```js
   {
-      typing: [Typing],   // 分型数据
+      // 历史笔段走势结构
+      strut: {
+        typing: [Typing],   // 分型数据
 
-      stroke: [Stroke],   // 笔数据
-      segment: [Segment], // 段数据
-      trend: [Trend],     // 走势数据
+        stroke: [Stroke],   // 笔数据
+        segment: [Segment], // 段数据
+        trend: [Trend],     // 走势数据
+
+        strokebox: [StrokeBox],   // 笔中枢数据
+        segmentbox: [SegmentBox], // 段中枢数据      
+      },
+      // 当前笔段走势结构 (即最后一笔段走势状态)
+      state: {
+        typing: Typing,   // 分型数据
+
+        stroke: Stroke,   // 笔数据
+        segment: Segment, // 段数据
+        trend: Trend,     // 走势数据
+
+        strokebox: StrokeBox,   // 笔中枢数据
+        segmentbox: SegmentBox, // 段中枢数据
+      },
+      // 当前笔段买卖点状态
+      trade: {
+         stroke: TradePoint,
+         segment: TradePoint,
+      }
+  }
+```
+
+
+##### Trade - 买卖点数据结构
+
+```js
+  class TradePoint {
   
-      strokebox: [StrokeBox],   // 笔中枢数据
-      segmentbox: [SegmentBox], // 段中枢数据
+    // 买卖点类型 1、2、3 即三类买卖点标识
+    type: null, 
+
+    // 交易方向 'up' | 'down'
+    direction: null, 
+    
+    // 是否确认 (买卖点未确认前为准备状态） 
+    isConfirm: false, 
+    
+    // 时间戳 (当前买卖点笔段时间戳) 
+    timestamp: null, 
+    
+    // 买卖点说明 如 1买准备、3买确认等
+    tip: '', 
   }
 ```
 
