@@ -113,7 +113,7 @@
 ```
 
 
-##### Trade - 买卖点数据结构
+##### TradePoint - 买卖点数据结构
 
 ```js
   class TradePoint {
