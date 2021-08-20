@@ -82,7 +82,7 @@ https://user-images.githubusercontent.com/2844717/122881625-f168b800-d36d-11eb-9
 
 <https://github.com/neil-pan-s/twist-quant/issues>
 
-## 量化交流 & 7x24财经快讯推送群
+## 缠论量化交流 & 7x24财经快讯推送群
 
 ![微信](./doc/neil0pan0s.png "缠论交流&量化交流") ![壹电报](./doc/finance.jpg "加入7x24财经快讯群 尽览全球实时财经快讯")
 
