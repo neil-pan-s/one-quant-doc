@@ -83,7 +83,7 @@
 ```js
   {
       // 历史笔段走势结构
-      strut: {
+      struct: {
         typing: [Typing],   // 分型数据
 
         stroke: [Stroke],   // 笔数据
