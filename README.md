@@ -13,10 +13,9 @@
 
 https://user-images.githubusercontent.com/2844717/122881625-f168b800-d36d-11eb-9f83-ad7cefc7af2d.mp4
 
-## 支持标的
+## 支持标的 (申请一周VIP试用)
 
-- 沪深证券 (免费)
-- 沪深可转债 (免费)
+- 沪深证券 (VIP)
 - 港股&美股 (VIP)
 - 国内期货 (VIP)
 - 加密货币 (VIP)
