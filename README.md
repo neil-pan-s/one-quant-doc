@@ -13,14 +13,14 @@
 
 https://user-images.githubusercontent.com/2844717/122881625-f168b800-d36d-11eb-9f83-ad7cefc7af2d.mp4
 
-## 支持标的 (申请一周VIP试用)
+## 支持标的 
 
-- 沪深证券 (VIP)
-- 港股&美股 (VIP)
-- 国内期货 (VIP)
-- 加密货币 (VIP)
+- 沪深证券
+- 港股&美股
+- 国内期货
+- 加密货币
 
-## VIP & SVIP服务
+## VIP & SVIP服务 (申请一周VIP试用)
 
 - VIP服务
   - 5s 15s 30s 秒级别K线 逐秒观察市场 🔥
