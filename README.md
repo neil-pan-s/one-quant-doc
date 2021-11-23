@@ -13,6 +13,12 @@
 
 https://user-images.githubusercontent.com/2844717/122881625-f168b800-d36d-11eb-9f83-ad7cefc7af2d.mp4
 
+## 多笔段走势规则配置
+
+支持设置多种笔、段、走势规则 满足交易者的笔段习惯和风格
+
+![rule](./doc/rule.png)
+
 ## 支持标的 
 
 - 沪深证券
