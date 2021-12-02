@@ -15,7 +15,26 @@
 
 ## 量化策略脚本
 
+目前提供了四个示例脚本 可以参考示例脚本进行开发：
+ 
+1. 示例脚本模板 (演示策略脚本生命周期和接口)
+2. Boll线脚本 (通过脚本在图表上绘制Boll线)
+3. 均线金叉策略脚本 (脚本在图表上绘制均线并在金叉时予以提示)
+4. 日均线信号推送脚本 (演示聚宽数据源API和Webhook通知API 标的价格站上或跌破日均线时推送通知
+
+量化策略脚本编程指南文档 见: https://github.com/neil-pan-s/twist-quant/blob/main/PROGRAM.md
+
 ![96948835](https://user-images.githubusercontent.com/2844717/144464811-bfa0a596-fc85-44df-9c6b-517b2dac754d.jpg)
+
+## 企业微信Webhook地址
+
+1. 电脑安装企业微信
+2. 新建一个群（发起群聊）
+3. 右键群 -> 添加机器人
+4. 添加机器人 -> 新创建一个机器人 -> 自定义一个机器人名
+5. 获取Webhook地址
+
+详见 https://zhuanlan.zhihu.com/p/370006823?utm_source=wechat_session&utm_medium=social&s_r=0
 
 ## 快捷键
 
