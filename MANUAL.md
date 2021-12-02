@@ -39,8 +39,11 @@
 ## 快捷键
 
 - **Tab** - 显示/隐藏 自选表和涨跌幅榜单 
+
 ![image](https://user-images.githubusercontent.com/2844717/144465470-6bbfd8ae-5453-4d60-864f-80ae9863fc8f.png)
+
 - **F10** - 显示/隐藏 沪深、港股、美股 基本面数据 
+
 ![1183238751](https://user-images.githubusercontent.com/2844717/144464712-be8d61cc-bf05-4f41-9e41-059bef4be331.jpg)
 
 ## 浏览器
