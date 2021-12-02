@@ -13,18 +13,18 @@
 - **标的搜索** - 搜索框 可搜索全市场标的 点击返回的搜索结果切换标的 (支持按键精灵机制 全局自动捕获按键输入 响应搜索结果)
 - **秒级K线** - 交易所不直接提供秒级别K线数据 所以无秒级别历史K线 依据毫秒Tick合并生成实时高精度秒级K线（需在开盘时才能使用）
 
+## 量化策略脚本
+
+![96948835](https://user-images.githubusercontent.com/2844717/144464811-bfa0a596-fc85-44df-9c6b-517b2dac754d.jpg)
+
 ## 快捷键
 
 - **Tab** - 显示/隐藏 自选表和涨跌幅榜单 
+![image](https://user-images.githubusercontent.com/2844717/144465470-6bbfd8ae-5453-4d60-864f-80ae9863fc8f.png)
 - **F10** - 显示/隐藏 沪深、港股、美股 基本面数据 
-
 ![1183238751](https://user-images.githubusercontent.com/2844717/144464712-be8d61cc-bf05-4f41-9e41-059bef4be331.jpg)
 
 ## 浏览器
 
 - **网站数据** - 不可清空壹缠网站数据
 - **隐私设置和安全性** - 不可开启 "关闭所有窗口时清除 Cookie 及网站数据"选项
-
-## 量化策略脚本
-
-![96948835](https://user-images.githubusercontent.com/2844717/144464811-bfa0a596-fc85-44df-9c6b-517b2dac754d.jpg)
