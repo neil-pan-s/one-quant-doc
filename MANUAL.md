@@ -54,3 +54,6 @@
 
 - **网站数据** - 不可清空壹缠网站数据
 - **隐私设置和安全性** - 不可开启 "Cookie 及其他网站数据 - 关闭所有窗口时清除 Cookie 及网站数据"选项
+
+![Snipaste_2021-12-10_21-05-09](https://user-images.githubusercontent.com/2844717/145578619-94eaed07-4ad9-4c09-96ab-7fc21756d5de.png)
+
