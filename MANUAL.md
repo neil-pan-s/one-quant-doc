@@ -67,3 +67,11 @@
 
 ![Snipaste_2021-12-10_21-05-09](https://user-images.githubusercontent.com/2844717/145578619-94eaed07-4ad9-4c09-96ab-7fc21756d5de.png)
 
+## 壹缠客户端安装
+
+以独立客户端方式使用壹缠服务 支持PC、平板和手机端 
+
+安装地址 https://one-quant.com/twist/#/install
+安装指引 见页面底部
+
+
