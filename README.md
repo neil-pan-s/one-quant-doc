@@ -73,15 +73,6 @@ https://user-images.githubusercontent.com/2844717/122881625-f168b800-d36d-11eb-9
 
 ![买卖定式](./doc/买卖定式.jpg)
 
-## 缠论量化思路
-
-1. [如何严格画出缠论中的笔](https://mp.weixin.qq.com/s?__biz=MzUzMzY0MTc4OQ==&mid=2247484364&idx=1&sn=2a155608d1a12704b813059442c24ff6&chksm=faa1ac9ecdd625884eb6270748081062b4df53874cde1d997cf5e7c50af43669f8aaa3359e4a&scene=178&cur_album_id=1494635016360919043#rd)
-2. [如何量化缠中说缠的线段](https://mp.weixin.qq.com/s?__biz=MzUzMzY0MTc4OQ==&mid=2247484850&idx=1&sn=f734307260f28d1684b54a016ddb6da3&chksm=faa1aae0cdd623f69ec7f2c8033ca8ddb5706e505551cb78816ddf086bfd920505f172da771d&scene=178&cur_album_id=1494635016360919043#rd)
-3. [如何量化缠中说禅中枢](https://mp.weixin.qq.com/s?__biz=MzUzMzY0MTc4OQ==&mid=2247484542&idx=1&sn=d2f7fdb66b96e976a6e7e998651f8728&chksm=faa1ab2ccdd6223ac4b1e4ef681dc1f6217298589cc33e6d5abf04299e91975a38a48638e7dc&scene=178&cur_album_id=1494635016360919043#rd)
-4. [如何理解缠论的同级别分解](https://mp.weixin.qq.com/s?__biz=MzUzMzY0MTc4OQ==&mid=2247484616&idx=1&sn=a0b7a8487ebc4853a0117254b41b7c9a&chksm=faa1ab9acdd6228c2c795f06c9c3407c903c16547e40484f88ef3d312101176a5acd90b63b68&scene=178&cur_album_id=1494635016360919043#rd)
-5. [什么是缠论的走势类型](https://mp.weixin.qq.com/s?__biz=MzUzMzY0MTc4OQ==&mid=2247484458&idx=1&sn=ccf51606f728549ec72033acb99b8168&chksm=faa1ab78cdd6226e88d967a10a92347bce9b49c527b4692ae3453ed4e5893373ee885c52aa86&scene=178&cur_album_id=1494635016360919043#rd)
-
-相关量化思路由李大硬提供， 详见公众号（缠中说硬）
 
 ## 反馈讨论 & Bug提交
 
