@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>k线合并实际案例解析</title>
+    <style type="text/css" media="all">
+      body {
+        margin: 0;
+        font-family: "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", sans-serif;
+        font-size: 14px;
+        line-height: 20px;
+        color: #777;
+        background-color: white;
+      }
+      .container {
+        width: 70%;
+        margin-right: auto;
+        margin-left: auto;
+      }
+
+      .post {
+        font-family: Georgia, "Times New Roman", Times, "SimSun", serif;
+        position: relative;
+        padding: 70px;
+        bottom: 0;
+        overflow-y: auto;
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 25px;
+        color: #515151;
+      }
+
+      .post h1{
+        font-size: 50px;
+        font-weight: 500;
+        line-height: 60px;
+        margin-bottom: 40px;
+        color: inherit;
+      }
+
+      .post p {
+        margin: 0 0 35px 0;
+      }
+
+      .post img {
+        border: 1px solid #D9D9D9;
+      }
+
+      .post a {
+        color: #28A1C5;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="post">
+        <h1 class="title">k线合并实际案例解析</h1>
+        <div class="show-content">
+          <div class="image-package  " data-index="null">
+<img class="uploaded-img" src="./k线合并实际案例解析_files/18717832-61f589a40b6f0c86.png" style="min-height:null;min-width:null;" width="null" height="null"><br><div class="image-caption"></div>
+</div><p>这个案例把所有包含的逻辑都包括了。</p><p>2,3是包含关系；</p><p>5,6是包含关系；</p><p>区别在于2,3是前包含后；5,6是后包含前。</p><p>2对比1是向上，也就是2的高点&gt;1的高点，and2的低点&gt;1的低点，这里注意，没有=,如果有=，1和2就必然包含了，就要先处理1和2的关系。然后2,3的包含关系就是向上包含，也就是取2,3的高点的高点，and低点中的高点，生成标准的k线。</p><div class="image-package  " data-index="null">
+<img class="uploaded-img" src="./k线合并实际案例解析_files/18717832-98741c89f83f6caa.png" style="min-height:null;min-width:null;" width="null" height="null"><br><div class="image-caption"></div>
+</div><p>黄色方框就是k线标准化之后的k线。</p><p>同理4和5方向向下，5和6就向下包含，取5和6中低点中的低点，and高点中的低点。</p><div class="image-package  " data-index="null">
+<img class="uploaded-img" src="./k线合并实际案例解析_files/18717832-f8214cfd6d26509b.png" style="min-height:null;min-width:null;" width="null" height="null"><br><div class="image-caption"></div>
+</div><p>上图黄色方框为标准化后的k线。</p><p>接下来，合并后的标准k线如果和后面新生成的k线继续包含，还要继续包含处理关系，直到不包含为止。需要注意的是，继续处理包含关系和之前的合并方向要保持一致。</p><div class="image-package  " data-index="null">
+<img class="uploaded-img" src="./k线合并实际案例解析_files/18717832-8985f2a7dff57dd9.png" style="min-height:null;min-width:null;" width="null" height="null"><br><div class="image-caption"></div>
+</div><p>1和2向上；</p><p>2和3继续向上；</p><p>3和4包含，用向上包含处理；</p><p>5和包含过的新34向下；</p><p>5和6向下合并；</p><p>新56和7继续包含，继续向下合并成567。（如下图所示）</p><div class="image-package  " data-index="null">
+<img class="uploaded-img" src="./k线合并实际案例解析_files/18717832-4bb36ecc59cd2ff8.png" style="min-height:null;min-width:null;" width="null" height="null"><br><div class="image-caption"></div>
+</div><p>1-7做k线标准化处理后形成新的标准的3根k线。这三根k线就是顶分型。</p><p><br></p><div class="image-package">
+<img class="uploaded-img" src="./k线合并实际案例解析_files/18717832-3fe0f15eb19615b8.png" width="auto" height="auto"><br><div class="image-caption"></div>
+</div>
+        </div>
+      </div>
+    </div>
+  <div class="nav">
+    <style scoped="">
+      .nav {
+        position: fixed;
+        top: 30px;
+        left: 30px;
+      }
+
+      .nav a {
+        font-size: 20px;
+        letter-spacing: 4px;
+        text-decoration: none;
+        color: #333;
+      }
+
+      .nav a:hover {
+        color: #007aff;
+      }
+    </style>
+    <a href="/"> 壹缠 </a> <a style="letter-spacing: 0px; color: #007aff;"> 李大硬专栏 </a>
+  </div>
+  
+
+</body></html>

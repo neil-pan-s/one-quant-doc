@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>缠论快速入门之k线合并</title>
+    <style type="text/css" media="all">
+      body {
+        margin: 0;
+        font-family: "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", sans-serif;
+        font-size: 14px;
+        line-height: 20px;
+        color: #777;
+        background-color: white;
+      }
+      .container {
+        width: 70%;
+        margin-right: auto;
+        margin-left: auto;
+      }
+
+      .post {
+        font-family: Georgia, "Times New Roman", Times, "SimSun", serif;
+        position: relative;
+        padding: 70px;
+        bottom: 0;
+        overflow-y: auto;
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 25px;
+        color: #515151;
+      }
+
+      .post h1{
+        font-size: 50px;
+        font-weight: 500;
+        line-height: 60px;
+        margin-bottom: 40px;
+        color: inherit;
+      }
+
+      .post p {
+        margin: 0 0 35px 0;
+      }
+
+      .post img {
+        border: 1px solid #D9D9D9;
+      }
+
+      .post a {
+        color: #28A1C5;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="post">
+        <h1 class="title">缠论快速入门之k线合并</h1>
+        <div class="show-content">
+          <p data-mpa-powered-by="yiban.io">&nbsp; &nbsp; 很多人讲千人千缠，和波浪一样。实际上基础部分，笔，段，中枢是统一标准，不存在每个人不同的划分。只有到交易层面才存在差异，这差异体现在两个方面：</p><p>&nbsp; &nbsp; 1：每个人根据自身特点，交易的级别不同；</p><p>&nbsp; &nbsp; 2：递归，同级别分解和非同级别分解只要不违背走势和结合律，按照有利于交易的方式分解，是存在不同的分解方法。</p><p>&nbsp; &nbsp;&nbsp;最基础的部分，是从k线-笔-段-中枢-走势类型-递归大级别段-大级别中枢-大级别走势。从这个路径可以看到，最小级别的段是由笔构成，而最小级别以上的段，都是小级别走势递归构成。</p><p>&nbsp; &nbsp; <strong>我们的交易，是建立在不同级别最后一个中枢，或者走势类型上构建的。今天的发文先讲k线到笔的构建。</strong></p><div class="image-package  " data-index="null">
+<img class="uploaded-img" src="./缠论快速入门之k线合并_files/18717832-ea292629c77e20dd.png" style="min-height:null;min-width:null;" width="null" height="null"><br><div class="image-caption"></div>
+</div><p>第一步，普通k线转为缠论k线，传统的蜡烛图有四个数据，而缠论的数据只有两个，高点和低点。k线这样处理后，就没有其他理论说的单根k线，比如十字星，也没有三根k线组合比如黄昏之星这样的情况。</p><p>第二步，k线的标准化，也就是处理k线的包含。</p><div class="image-package  " data-index="null">
+<img class="uploaded-img" src="./缠论快速入门之k线合并_files/18717832-f57e7eeca0c316f3.png" style="min-height:null;min-width:null;" width="null" height="null"><br><div class="image-caption"></div>
+</div><p>（上图所示为k线的包含，蓝色框框就是k线合并后的标准化k线。）</p><p><strong>什么是缠论中的k线包含关系</strong></p><div class="image-package  " data-index="null">
+<img class="uploaded-img" src="./缠论快速入门之k线合并_files/18717832-460bc35c2585506a.png" style="min-height:null;min-width:null;" width="null" height="null"><br><div class="image-caption"></div>
+</div><p>&nbsp; &nbsp; k线的包含关系实质是对两个k线组合做完全分类，而顶底分型和上升下降k先，就是对处理完全包含关系标准化的三根k线组合做的完全分类。</p><p>&nbsp; &nbsp; 2根k线的完全分类只有上图四种情况。</p><p>&nbsp; &nbsp; 显然图一和图二是包含，而图三和图四是没有，图一是前包含，图二是后包含。所以包含的定义是相邻两根k线，一根的高点大于等于另一根，同时低点小于等于另一根。用数学公式表达就是：</p><div class="image-package  " data-index="null">
+<img class="uploaded-img" src="./缠论快速入门之k线合并_files/18717832-e1cd2811d697ec15.png" style="min-height:null;min-width:null;" width="null" height="null"><br><div class="image-caption"></div>
+</div><p>&nbsp; &nbsp;k线合并的第二个要点是，合并后的k线要一直合并，直到不能合并为止。</p><p><strong>k线的包含处理：</strong></p><div class="image-package  " data-index="null">
+<img class="uploaded-img" src="./缠论快速入门之k线合并_files/18717832-e02c48b0a5a11c99.png" style="min-height:null;min-width:null;" width="null" height="null"><br><div class="image-caption"></div>
+</div><div class="image-package  " data-index="null">
+<img class="uploaded-img" src="./缠论快速入门之k线合并_files/18717832-668e52bd73f00108.png" style="min-height:null;min-width:null;" width="null" height="null"><br><div class="image-caption"></div>
+</div><div class="image-package  " data-index="null">
+<img class="uploaded-img" src="./缠论快速入门之k线合并_files/18717832-9fc7eb6480a55a4b.png" style="min-height:null;min-width:null;" width="null" height="null"><br><div class="image-caption"></div>
+</div><div class="image-package  " data-index="null">
+<img class="uploaded-img" src="./缠论快速入门之k线合并_files/18717832-96b41428a6d4041c.png" style="min-height:null;min-width:null;" width="null" height="null"><br><div class="image-caption"></div>
+</div><div class="image-package  " data-index="null">
+<img class="uploaded-img" src="./缠论快速入门之k线合并_files/18717832-b98131a431202060.png" style="min-height:null;min-width:null;" width="null" height="null"><br><div class="image-caption"></div>
+</div><p><br></p><div class="image-package">
+<img class="uploaded-img" src="./缠论快速入门之k线合并_files/18717832-da220ac37e430d84.png" width="auto" height="auto"><br><div class="image-caption"></div>
+</div>
+        </div>
+      </div>
+    </div>
+  <div class="nav">
+    <style scoped="">
+      .nav {
+        position: fixed;
+        top: 30px;
+        left: 30px;
+      }
+
+      .nav a {
+        font-size: 20px;
+        letter-spacing: 4px;
+        text-decoration: none;
+        color: #333;
+      }
+
+      .nav a:hover {
+        color: #007aff;
+      }
+    </style>
+    <a href="/"> 壹缠 </a> <a style="letter-spacing: 0px; color: #007aff;"> 李大硬专栏 </a>
+  </div>
+  
+
+</body></html>
