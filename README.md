@@ -3,7 +3,7 @@
 
 聚焦于多级别K线走势分析 实时自动分解走势 笔段画线、中枢标识 递归分析整体走势 作为买卖分析参考
 
-地址: <https://zen.one-quant.com> (默认标的为上证指数 搜索框可检索标的)
+地址: <https://one-quant.com/#/zen> (默认标的为上证指数 搜索框可检索标的)
 
 ![demo](https://user-images.githubusercontent.com/2844717/221420331-4ad2b90b-6d70-4447-b795-e7d4c8c1e84a.png)
 
