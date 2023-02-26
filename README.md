@@ -3,7 +3,7 @@
 
 聚焦于多级别K线走势分析 实时自动分解走势 笔段画线、中枢标识 递归分析整体走势 作为买卖分析参考
 
-地址: <https://one-quant.com/#/twist> (默认标的为上证指数 搜索框可检索标的)
+地址: <https://one-quant.com/#/zen> (默认标的为上证指数 搜索框可检索标的)
 
 ![demo](./doc/demo.png)
 
@@ -76,7 +76,7 @@ https://user-images.githubusercontent.com/2844717/122881625-f168b800-d36d-11eb-9
 
 ## 反馈讨论 & Bug提交
 
-<https://github.com/neil-pan-s/twist-quant/issues>
+<https://github.com/neil-pan-s/one-quant-doc/issues>
 
 ## 缠论量化交流 & 7x24财经快讯推送群
 
