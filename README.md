@@ -46,13 +46,13 @@ https://user-images.githubusercontent.com/2844717/122881625-f168b800-d36d-11eb-9
 
 支持设置多种笔、段、走势规则 满足交易者的笔段习惯和风格
 
-![rule](./doc/rule.png)
+![rule](https://user-images.githubusercontent.com/2844717/221420409-a39b84ad-0203-4488-b7d6-86b2b8e55626.png)
 
 ## 支持多级别联立
 
 多级别联立 判断走势情况 找寻更多的合适买卖点和形态特征
 
-![cube](./doc/cube-x.jpg)
+![cube-x](https://user-images.githubusercontent.com/2844717/221420424-be133e75-dd36-4470-8ecb-9c487b15dff6.png)
 
 ## 支持买卖点选股器
 
@@ -67,11 +67,11 @@ https://user-images.githubusercontent.com/2844717/122881625-f168b800-d36d-11eb-9
 
 支持用户自行实现量化策略 扩展图表标注、买卖信号、推送通知等功能 详见 [策略脚本编程指南](https://github.com/neil-pan-s/one-quant-doc/blob/main/PROGRAM.md)
 
-![editor](./doc/editor.png)
+![editor](https://user-images.githubusercontent.com/2844717/221420443-bb5b5b17-16c7-4a58-be76-fed41594f119.png)
 
 ## 买卖定式
 
-![买卖定式](./doc/买卖定式.jpg)
+![买卖定式](https://user-images.githubusercontent.com/2844717/221420457-904971fc-22e6-4314-a644-42ab989ce37f.jpg)
 
 
 ## 反馈讨论 & Bug提交
