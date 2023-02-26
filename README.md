@@ -5,9 +5,9 @@
 
 地址: <https://one-quant.com/#/zen> (默认标的为上证指数 搜索框可检索标的)
 
-![demo](./doc/demo.png)
+![demo](https://user-images.githubusercontent.com/2844717/221420331-4ad2b90b-6d70-4447-b795-e7d4c8c1e84a.png)
 
-![流程](./doc/流程.png)
+![流程](https://user-images.githubusercontent.com/2844717/221420356-6e088ec0-9019-45c4-a03c-307ca270aaaa.png)
 
 ## 回放和实时买卖点判断
 
