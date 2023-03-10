@@ -36,7 +36,7 @@
 3. 均线金叉策略脚本 (脚本在图表上绘制均线并在金叉时予以提示)
 4. 日均线信号推送脚本 (演示聚宽数据源API和Webhook通知API 标的价格站上或跌破日均线时推送通知
 
-量化策略脚本编程指南文档 见: https://github.com/neil-pan-s/twist-quant/blob/main/PROGRAM.md
+量化策略脚本编程指南文档 见: https://github.com/neil-pan-s/one-quant-doc/blob/main/PROGRAM.md
 
 ![96948835](https://user-images.githubusercontent.com/2844717/144464811-bfa0a596-fc85-44df-9c6b-517b2dac754d.jpg)
 
@@ -71,7 +71,7 @@
 
 以独立客户端方式使用壹缠服务 支持PC、平板和手机端 
 
-安装地址 https://one-quant.com/twist/#/install
+安装地址 https://one-quant.com/#/install
 安装指引 见页面底部
 
 
