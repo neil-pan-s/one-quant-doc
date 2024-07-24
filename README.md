@@ -5,9 +5,13 @@
 
 地址: <https://one-quant.com/#/zen> (默认标的为上证指数 搜索框可检索标的)
 
-🔥 壹缠TradingView脚本已上线 
+🔥 壹缠 | TradingView脚本 
 
-地址: <https://one-quant.com/#/tradingview>
+地址: <https://one-quant.com/tradingview>
+
+🔥 壹缠 | 缠论AI 
+
+地址: <https://one-quant.com/ai>
 
 ![demo](https://user-images.githubusercontent.com/2844717/221420331-4ad2b90b-6d70-4447-b795-e7d4c8c1e84a.png)
 
