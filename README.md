@@ -1,13 +1,7 @@
 
 # 壹缠 - 缠论(缠中说禅)技术分析
 
-🔥 壹缠 | TradingView脚本 
-
-地址: <https://one-quant.com/tradingview>
-
-🔥 壹缠 | 缠论AI 
-
-地址: <https://one-quant.com/ai>
+🔥 壹缠 | (TradingView脚本)<https://one-quant.com/tradingview> | (缠论AI)<https://one-quant.com/ai> 
 
 聚焦于多级别K线走势分析 实时自动分解走势 笔段画线、中枢标识 递归分析整体走势 作为买卖分析参考
 
