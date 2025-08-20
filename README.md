@@ -10,10 +10,11 @@
 ![demo](https://user-images.githubusercontent.com/2844717/221420331-4ad2b90b-6d70-4447-b795-e7d4c8c1e84a.png)
 <!--
 ![流程](https://user-images.githubusercontent.com/2844717/221420356-6e088ec0-9019-45c4-a03c-307ca270aaaa.png)
--->
+
 ## 回放和实时买卖点判断
 
 https://user-images.githubusercontent.com/2844717/122881625-f168b800-d36d-11eb-9f83-ad7cefc7af2d.mp4
+-->
 
 ## 支持标的 
 
