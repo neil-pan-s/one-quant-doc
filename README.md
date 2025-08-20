@@ -56,6 +56,7 @@ https://user-images.githubusercontent.com/2844717/122881625-f168b800-d36d-11eb-9
 
 ![cube-x](https://user-images.githubusercontent.com/2844717/221420424-be133e75-dd36-4470-8ecb-9c487b15dff6.png)
 
+<!--
 ## 支持买卖点选股器
 
 支持全沪深市场、国内期货 批量缠论买卖点分析筛选
@@ -70,6 +71,7 @@ https://user-images.githubusercontent.com/2844717/122881625-f168b800-d36d-11eb-9
 支持用户自行实现量化策略 扩展图表标注、买卖信号、推送通知等功能 详见 [策略脚本编程指南](https://github.com/neil-pan-s/one-quant-doc/blob/main/PROGRAM.md)
 
 ![editor](https://user-images.githubusercontent.com/2844717/221420443-bb5b5b17-16c7-4a58-be76-fed41594f119.png)
+-->
 
 ## 买卖定式
 
